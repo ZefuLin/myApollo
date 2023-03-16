@@ -1,0 +1,16 @@
+module_config {
+    module_library : "/apollo/bazel-bin/cyber/demo_vslam/libvslam_component.so"
+    components {
+        class_name : "vslamComponent"
+        config {
+            name : "vlsam"
+            readers {
+                channel: "channel/pose"
+            }
+            readers {
+                channel: "channel/pointCloud"
+            }
+        }
+    }
+}
+    

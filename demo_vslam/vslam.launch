@@ -1,0 +1,7 @@
+<cyber>
+    <module>
+        <name>vlsam</name>
+        <dag_conf>/apollo/cyber/demo_vslam/vslam.dag</dag_conf>
+        <process_name>vlsam</process_name>
+    </module>
+</cyber>

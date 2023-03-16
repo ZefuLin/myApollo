@@ -1,0 +1,24 @@
+syntax = "proto2";
+
+package apollo.cyber.demo_vslam.proto;
+
+message CarPose {
+    required double x =1;    
+    required double y =2;    
+    required double z =3;    
+    
+    required double qx =4;    
+    required double qy =5;    
+    required double qz =6;    
+    required double qw =7;    
+}
+
+message pointCloud {
+    repeated double x = 1;
+    repeated double y = 2;
+    repeated double z = 3;
+
+    repeated uint64 r = 4;
+    repeated uint64 g = 5;
+    repeated uint64 b = 6;
+}
