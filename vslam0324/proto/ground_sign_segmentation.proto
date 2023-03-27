@@ -1,0 +1,15 @@
+syntax = "proto2";
+
+package apollo.perception.onboard;
+
+import "modules/common/proto/header.proto";
+
+message Segment {
+  repeated int32 position = 1;
+}
+
+message GroundSignSegmentation {
+  optional apollo.common.Header header = 1;  // header
+  optional string camera_id = 2;
+  map<string, Segment>  mask_map = 3;
+}

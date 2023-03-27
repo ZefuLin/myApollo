@@ -1,0 +1,24 @@
+imu_odom_path: "/apollo/modules/localization/vslam/data/odometry/"
+bev_cloud_path: "/apollo/modules/localization/vslam/data/bevCloud/"
+global_cloud_path: "/apollo/modules/localization/vslam/data/globalCloud/"
+source_cloud_path: "/apollo/modules/localization/vslam/data/bevCloud/"
+mapping_result_path: "/apollo/modules/localization/vslam/data/globalCloud/glo919.pcd"
+
+imu_file_num: 964
+bevCloud_file_num: 964
+
+imu2lidar_matrix: 
+[
+    0.00334014,
+    0.999924,
+    0.0118571,
+    -0.999837,
+    0.00312901,
+    0.0177801,
+    0.0177417,
+    -0.0119146,
+    0.999772,
+    -1.19292,
+    -0.0230692,
+    -1.28574
+]
