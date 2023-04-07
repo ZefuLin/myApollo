@@ -1,0 +1,135 @@
+# Parameter List
+odometryFilePath: "/home/lin/Projects/bev2cloud/data/odometry/"
+root_source_cloud: "/home/lin/Projects/bev2cloud/data/bevCloud/"
+init_global_cloud: "/home/lin/Projects/bev2cloud/data/bevCloud/000000.pcd"
+icp_result: "/home/lin/Projects/bev2cloud/data/globalCloud/"
+bev_pointcloud_path: "/home/lin/Projects/bev2cloud/data/testCloud/"
+transSrcCloud_path: "/home/lin/Projects/bev2cloud/data/transScrCloud/"
+
+ego_trajectory_path: "/home/lin/Projects/bev2cloud/data/ego_trajectory.pcd"
+ego_global_path: "/home/lin/Projects/bev2cloud/data/ego_global.pcd"
+
+
+wheel_odom_path: "/home/lin/Projects/bev2cloud/data/wheel_odometry/"
+wheel_odom_trajectory_path: "/home/lin/Projects/bev2cloud/data/odom_trajectory/wheel_odom_trajectory.pcd"
+
+
+imu_odom_path: "/home/lin/Projects/bev2cloud/data/imu/"
+imu_odom_trajectory_path: "/home/lin/Projects/bev2cloud/data/odom_trajectory/imu_odom_trajectory.pcd"
+
+
+gnss_odom_trajectory_path: "/home/lin/Projects/bev2cloud/data/odom_trajectory/gnss_odom_trajectory.pcd"
+
+ekf_odom_trajectory_path: "/home/lin/Projects/bev2cloud/data/odom_trajectory/ekf_odom_trajectory.pcd"
+imu2wheel_ratio: 1
+
+coordinate_origin:
+    x: 1968.5
+    y: 1696
+
+imu2lidar_matrix: 
+[
+    0.00334014,
+    0.999924,
+    0.0118571,
+    -0.999837,
+    0.00312901,
+    0.0177801,
+    0.0177417,
+    -0.0119146,
+    0.999772,
+    -1.19292,
+    -0.0230692,
+    -1.28574
+]
+
+frame_id:
+[
+    1,
+    200,
+    332,
+    # 389,
+    437,
+    642,
+    697,
+    881,
+    918,
+    1153,
+    1301,
+    1351,
+    1456,
+    1487,
+    # 1566,
+    1680,
+    1687,
+    1750,
+    # 1790,
+    # 1798,
+    1785,
+    1818,
+    1834,
+    # 1887,
+    1900,
+    1917,
+    1938,
+    1953,
+    1968,
+    1978
+]
+
+imu2lidar_yaw: -1.567455654690774
+imu2lidar_tx: -1.19292
+imu2lidar_ty: -0.0230692
+imu2lidar_tz: -1.28574
+lidar2wheel_x: -1.534709
+
+key_frame_dis: 0.6
+
+pointcloud_file_num: 1718
+gnss_odom_file_num: 1718
+imu_odom_file_num: 1718
+wheel_odom_file_num: 1718
+
+random_downsample_num: 3000
+voxel_downsample_leaf_size: 0.2
+icp_max_correspondence_distance: 0.2
+icp_maximum_iterations_mapping: 2000
+icp_maximum_iterations_relocation: 10
+icp_transformation_epsilon: 1e-10
+icp_euclidean_fitness_epsilon: 1e-6
+
+odom_flag: 1
+mapping_flag: 1
+relocation_flag: 0
+get_pointCloud_flag: 0
+manual_flag: 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
